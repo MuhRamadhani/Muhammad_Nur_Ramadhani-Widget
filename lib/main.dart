@@ -73,6 +73,9 @@ class MyApp extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.all(20.0),
                 child: Text('8. Ini Padding Text'),
+              ),
+              Center(
+                child: Text('9. Ini Center Text'),
               ),]
           ),
         ),
