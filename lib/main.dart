@@ -55,6 +55,20 @@ class MyApp extends StatelessWidget {
               TextButton(
                 onPressed: () {},
                 child: Text('Ini Text Button'),
+              ),
+              Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(
+                    width: 200.0,
+                    height: 200.0,
+                    color: Colors.grey,
+                  ),
+                  Text(
+                    '7. Ini Text Stack',
+                    style: TextStyle(fontSize: 20.0),
+                  ),
+                ],
               ),]
           ),
         ),
