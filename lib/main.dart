@@ -69,6 +69,10 @@ class MyApp extends StatelessWidget {
                     style: TextStyle(fontSize: 20.0),
                   ),
                 ],
+              ),
+              Padding(
+                padding: EdgeInsets.all(20.0),
+                child: Text('8. Ini Padding Text'),
               ),]
           ),
         ),
