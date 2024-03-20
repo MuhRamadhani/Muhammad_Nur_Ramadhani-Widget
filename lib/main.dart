@@ -76,6 +76,12 @@ class MyApp extends StatelessWidget {
               ),
               Center(
                 child: Text('9. Ini Center Text'),
+              ),
+              AspectRatio(
+                aspectRatio: 16 / 9,
+                child: Container(
+                  color: Colors.green,
+                ),
               ),]
           ),
         ),
