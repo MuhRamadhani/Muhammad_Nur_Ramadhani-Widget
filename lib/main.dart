@@ -40,13 +40,21 @@ class MyApp extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Icon(Icons.favorite, size: 50.0, color: Colors.red), // Icon
-                  Icon(Icons.star, size: 50.0, color: Colors.yellow), // Icon
+                  Icon(Icons.favorite, size: 50.0, color: Colors.red),
+                  Icon(Icons.star, size: 50.0, color: Colors.yellow),
                 ],
               ),
               Image.network(
                 'https://upload.wikimedia.org/wikipedia/id/thumb/3/35/Emblem_of_Universitas_Muhammadiyah_Kalimantan_Timur.png/230px-Emblem_of_Universitas_Muhammadiyah_Kalimantan_Timur.png', // Ganti dengan URL gambar Anda
                 width: 150.0,
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text('6. Ini Elevated Buttton'),
+              ),
+              TextButton(
+                onPressed: () {},
+                child: Text('Ini Text Button'),
               ),]
           ),
         ),
