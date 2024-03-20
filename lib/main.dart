@@ -82,7 +82,32 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   color: Colors.green,
                 ),
-              ),]
+              ),
+              ListView.builder(
+                shrinkWrap: true,
+                itemCount: 10,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    title: Text('Item $index'),
+                  );
+                },
+              ),
+              GridView.builder(
+                shrinkWrap: true,
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 10.0,
+                  crossAxisSpacing: 10.0,
+                ),
+                itemCount: 6,
+                itemBuilder: (context, index) {
+                  return Container(
+                    color: Colors.orange,
+                    child: Center(
+                      child: Text('Grid Item $index'),
+                    ),
+                  );
+                })]
           ),
         ),
       ),
