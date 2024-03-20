@@ -36,6 +36,13 @@ class MyApp extends StatelessWidget {
                   '2. Ini Container',
                   style: TextStyle(color: Colors.white),
                 ),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Icon(Icons.favorite, size: 50.0, color: Colors.red),
+                  Icon(Icons.star, size: 50.0, color: Colors.yellow),
+                ],
               ),]
           ),
         ),
