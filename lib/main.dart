@@ -23,6 +23,19 @@ class MyApp extends StatelessWidget {
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
                 ),
+              ),
+              SizedBox(height: 20.0),
+              Container(
+                padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0),
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(10.0),
+                ),
+                child: Text(
+                  '2. Ini Container',
+                  style: TextStyle(color: Colors.white),
+                ),
               ),]
           ),
         ),
